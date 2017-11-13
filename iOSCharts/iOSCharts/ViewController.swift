@@ -6,10 +6,12 @@
 //  Copyright © 2017 Joseph Frazier. All rights reserved.
 //
 
+import Charts
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
