@@ -7,14 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30A71582C3E305F8C4B819A2 /* Pods_Chart_test_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FAC944C3A4FA9FC77C4EEA /* Pods_Chart_test_2.framework */; };
 		CC12BB871FB93B2900534799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC12BB861FB93B2900534799 /* AppDelegate.swift */; };
 		CC12BB891FB93B2900534799 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC12BB881FB93B2900534799 /* ViewController.swift */; };
 		CC12BB8C1FB93B2900534799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC12BB8A1FB93B2900534799 /* Main.storyboard */; };
 		CC12BB8E1FB93B2900534799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC12BB8D1FB93B2900534799 /* Assets.xcassets */; };
 		CC12BB911FB93B2A00534799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC12BB8F1FB93B2A00534799 /* LaunchScreen.storyboard */; };
+		CC12BBA11FB93CD100534799 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC12BB9E1FB93CC100534799 /* Charts.framework */; };
+		CC12BBA21FB93CD100534799 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC12BB9E1FB93CC100534799 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CC12BB9D1FB93CC100534799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC12BB981FB93CC100534799 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		CC12BB9F1FB93CC100534799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC12BB981FB93CC100534799 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+		CC12BBA31FB93CD100534799 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC12BB981FB93CC100534799 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A58A4ED274A941CA248EA921;
+			remoteInfo = Charts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC12BBA51FB93CD100534799 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CC12BBA21FB93CD100534799 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		33C53E9375C7C674AACEC199 /* Pods-Chart-test-2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chart-test-2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chart-test-2/Pods-Chart-test-2.release.xcconfig"; sourceTree = "<group>"; };
+		5BAACD44F32D3F9A835BC57F /* Pods-Chart-test-2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chart-test-2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chart-test-2/Pods-Chart-test-2.debug.xcconfig"; sourceTree = "<group>"; };
 		CC12BB831FB93B2900534799 /* Chart-test-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chart-test-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC12BB861FB93B2900534799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC12BB881FB93B2900534799 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +65,8 @@
 		CC12BB8D1FB93B2900534799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC12BB901FB93B2A00534799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC12BB921FB93B2A00534799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC12BB981FB93CC100534799 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Charts.xcodeproj; sourceTree = "<group>"; };
+		E6FAC944C3A4FA9FC77C4EEA /* Pods_Chart_test_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chart_test_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +74,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC12BBA11FB93CD100534799 /* Charts.framework in Frameworks */,
+				30A71582C3E305F8C4B819A2 /* Pods_Chart_test_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C88B1D67D94D251BC9F7D01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BAACD44F32D3F9A835BC57F /* Pods-Chart-test-2.debug.xcconfig */,
+				33C53E9375C7C674AACEC199 /* Pods-Chart-test-2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B1E6F3C50E660F7AFE4DEBB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6FAC944C3A4FA9FC77C4EEA /* Pods_Chart_test_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC12BB7A1FB93B2900534799 = {
 			isa = PBXGroup;
 			children = (
+				CC12BB981FB93CC100534799 /* Charts.xcodeproj */,
 				CC12BB851FB93B2900534799 /* Chart-test-2 */,
 				CC12BB841FB93B2900534799 /* Products */,
+				4C88B1D67D94D251BC9F7D01 /* Pods */,
+				B1E6F3C50E660F7AFE4DEBB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +131,15 @@
 			path = "Chart-test-2";
 			sourceTree = "<group>";
 		};
+		CC12BB991FB93CC100534799 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC12BB9E1FB93CC100534799 /* Charts.framework */,
+				CC12BBA01FB93CC100534799 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,13 +147,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC12BB951FB93B2A00534799 /* Build configuration list for PBXNativeTarget "Chart-test-2" */;
 			buildPhases = (
+				258735F4EE248D8567C89257 /* [CP] Check Pods Manifest.lock */,
 				CC12BB7F1FB93B2900534799 /* Sources */,
 				CC12BB801FB93B2900534799 /* Frameworks */,
 				CC12BB811FB93B2900534799 /* Resources */,
+				CC12BBA51FB93CD100534799 /* Embed Frameworks */,
+				734F40FB694EF252CC31E312 /* [CP] Embed Pods Frameworks */,
+				662078387C30F032FAE59FDC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CC12BBA41FB93CD100534799 /* PBXTargetDependency */,
 			);
 			name = "Chart-test-2";
 			productName = "Chart-test-2";
@@ -111,12 +192,35 @@
 			mainGroup = CC12BB7A1FB93B2900534799;
 			productRefGroup = CC12BB841FB93B2900534799 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CC12BB991FB93CC100534799 /* Products */;
+					ProjectRef = CC12BB981FB93CC100534799 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CC12BB821FB93B2900534799 /* Chart-test-2 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CC12BB9E1FB93CC100534799 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = CC12BB9D1FB93CC100534799 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC12BBA01FB93CC100534799 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = CC12BB9F1FB93CC100534799 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CC12BB811FB93B2900534799 /* Resources */ = {
@@ -131,6 +235,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		258735F4EE248D8567C89257 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chart-test-2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		662078387C30F032FAE59FDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chart-test-2/Pods-Chart-test-2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		734F40FB694EF252CC31E312 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Chart-test-2/Pods-Chart-test-2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chart-test-2/Pods-Chart-test-2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC12BB7F1FB93B2900534799 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -142,6 +304,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC12BBA41FB93CD100534799 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = CC12BBA31FB93CD100534799 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CC12BB8A1FB93B2900534799 /* Main.storyboard */ = {
@@ -272,7 +442,9 @@
 		};
 		CC12BB961FB93B2A00534799 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BAACD44F32D3F9A835BC57F /* Pods-Chart-test-2.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZYU6WY7T64;
@@ -287,7 +459,9 @@
 		};
 		CC12BB971FB93B2A00534799 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33C53E9375C7C674AACEC199 /* Pods-Chart-test-2.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZYU6WY7T64;
