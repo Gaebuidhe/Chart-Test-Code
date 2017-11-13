@@ -13,7 +13,23 @@
 		CC12BBB91FB9468900534799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC12BBB71FB9468900534799 /* Main.storyboard */; };
 		CC12BBBB1FB9468900534799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC12BBBA1FB9468900534799 /* Assets.xcassets */; };
 		CC12BBBE1FB9468900534799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC12BBBC1FB9468900534799 /* LaunchScreen.storyboard */; };
+		CC12BBC51FB94BBF00534799 /* Pods_RealmAndCharts_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC33C6E404687D512808FDC /* Pods_RealmAndCharts_example.framework */; };
+		CC12BBC61FB94BBF00534799 /* Pods_RealmAndCharts_example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC33C6E404687D512808FDC /* Pods_RealmAndCharts_example.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC12BBC71FB94BBF00534799 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CC12BBC61FB94BBF00534799 /* Pods_RealmAndCharts_example.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2DC33C6E404687D512808FDC /* Pods_RealmAndCharts_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmAndCharts_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC12BBC51FB94BBF00534799 /* Pods_RealmAndCharts_example.framework in Frameworks */,
 				10F2E10451417775961BA677 /* Pods_RealmAndCharts_example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +118,7 @@
 				CC12BBAE1FB9468900534799 /* Resources */,
 				1D6392E52F273088D11BEBB5 /* [CP] Embed Pods Frameworks */,
 				5087B5B7DB1B121D9B14E8CD /* [CP] Copy Pods Resources */,
+				CC12BBC71FB94BBF00534799 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,14 +185,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RealmAndCharts-example/Pods-RealmAndCharts-example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
